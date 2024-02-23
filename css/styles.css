@@ -207,7 +207,7 @@ h1 {
     display: none;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 430px) {
     main {
         flex-direction: column;
     }
@@ -221,6 +221,10 @@ h1 {
         width: 100%;
         margin: 0;
     }
+
+    .contenedor-muneco {
+        display: none;
+    }
 }
 
 
@@ -230,12 +234,12 @@ h1 {
     }
 
     .seccion-encriptar {
-        width: 80%;
+        width: 90%;
         margin: 20px auto;
     }
 
     .seccion-desencriptar {
-        width: 80%;
+        width: 90%;
         height: 100%;
         margin: auto;
         padding: 20px;
@@ -246,4 +250,5 @@ h1 {
         height: 400px;
         margin: 0;
     }
+
 }
