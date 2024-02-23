@@ -16,7 +16,6 @@
         <div class="contenedor-texto">
           <textarea
             class="texto-entrada"
-            id="textInput"
             placeholder="Ingrese el texto aqui"
           ></textarea>
         </div>
@@ -27,8 +26,8 @@
         </div>
 
         <div class="contenedor-botones">
-          <button class="boton-encriptar">Encriptar</button>
-          <button class="boton-desencriptar">Desencriptar</button>
+          <button onclick="mostrarTextoEncriptado()" class="boton-encriptar">Encriptar</button>
+          <button onclick="desencriptarTexto()" class="boton-desencriptar">Desencriptar</button>
         </div>
       </section>
 
@@ -44,14 +43,13 @@
           </p>
         </div>
 
-        <div class="contenedor-copiar">
-          <button class="boton-copiar">copiar</button>
-        </div>
-
         <div class="contenedor-resultado">
           <p class="texto-salida">Texto de salida</p>
         </div>
-        
+
+        <div class="contenedor-copiar">
+          <button class="boton-copiar">copiar</button>
+        </div>
       </section>
 
     </main>
@@ -61,5 +59,8 @@
         <p>Made by Refranz6</p>
       </div>
     </footer>
+
+    <script src="./js/script.js"></script>
+
   </body>
 </html>
