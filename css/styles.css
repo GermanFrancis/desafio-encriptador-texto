@@ -40,7 +40,7 @@ main {
     background-color: white;
     border-radius: 15px;
     margin: 0 30px;
-    padding-top: 60px;
+    padding-top: 20px;
 }
 
 .contenedor-texto {
@@ -155,16 +155,13 @@ h1 {
     width: 60%;
 }
 
-.contenedor-salida-texto {
-    padding-top: 100px;
-    text-align: center;
-    align-items: center;
-    background-color: white;
-    width: 20%;
-    height: 600px;
-    border-radius: 10px;
-    margin: 20px;
-    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+.contenedor-resultado{
+    width: auto;
+    font-size: 20px;
+    color: #0A3871;
+    height: 80%;
+    margin: 0 20px;
+    text-align: justify;
 }
 
 .mensaje-texto-1 {
@@ -189,8 +186,14 @@ h1 {
 	border: 2px solid #0A3871;
 	border-radius: 20px;
 	padding: 20px 24px;
-	font-size: 15px;
+	font-size: 12px;
     text-align: center; 
+}
+
+.boton-copiar:hover {
+    background-color: #0A3871;
+    color: #f4f4fc;
+    transition: 1s all;
 }
 
 .contenedor-autor {

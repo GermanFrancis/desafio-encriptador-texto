@@ -27,7 +27,7 @@
 
         <div class="contenedor-botones">
           <button onclick="mostrarTextoEncriptado()" class="boton-encriptar">Encriptar</button>
-          <button onclick="desencriptarTexto()" class="boton-desencriptar">Desencriptar</button>
+          <button onclick="mostrarTextoDesencriptado()" class="boton-desencriptar">Desencriptar</button>
         </div>
       </section>
 
@@ -44,12 +44,13 @@
         </div>
 
         <div class="contenedor-resultado">
-          <p class="texto-salida">Texto de salida</p>
+          <p  class="texto-salida"></p>
         </div>
 
         <div class="contenedor-copiar">
-          <button class="boton-copiar">copiar</button>
+          <button onclick="copiarTexto()" class="boton-copiar">copiar</button>
         </div>
+
       </section>
 
     </main>
